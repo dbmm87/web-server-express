@@ -19,7 +19,7 @@ app.get('/',function (req,res) {
     res.send(salida);*/
 
     res.render('home',{
-        nombre:"demetrio",
+        nombre:"demetrio Mendez",
     });
 });
 app.get('/about', function (req, res) {
